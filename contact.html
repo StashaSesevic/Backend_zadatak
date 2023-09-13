@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" type="text/css" href="css/style04.css">
+    <title>Kontakt</title>
+     <link rel="icon" href="images\favicon.ico" type="image/x-icon">
+     <script src="https://code.jquery.com/jquery-3.7.0.js" integrity="sha256-JlqSTELeR4TLqP0OG9dxM7yDPqX1ox/HfgiSLBj8+kM=" crossorigin="anonymous">
+    </script>
+</head>
+<body>
+
+    <form id="forma01" action="forma.php" method="post">
+        <h2>Kontakt</h2>
+        <br>
+    <label for="imePoruka">Vaše ime i prezime:</label> 
+    <input type="text" class="polje" id="imePoruka" name="ime" size="25" maxlength="30" placeholder="Upiši ovde">
+    <label for="mejlPoruka">Vaša e-mail adresa:</label>
+    <input type="text" class="polje" id="mejlPoruka" name="mejl" size="25" maxlength="40" placeholder="Upiši ovde">
+    <label for="telefonPoruka">Vaš broj mobilnog telefona:</label>
+    <input type="text" class="polje" id="telefonPoruka" name="telefon" size="25" maxlength="30" placeholder="Upiši ovde">
+       <br>
+       <br>
+    <textarea name="komentar" class="polje" id="komentar" cols="120" rows="5" placeholder="Upiši ovde"></textarea>
+    <br>
+    <br>
+      Želim da:
+      <br>
+    <input type="radio" name="vrstaPoruke" value="zakazivanjeTreninga">
+    zakažem trening
+    <br>
+    <input type="radio" name="vrstaPoruke" value="zamrzavanjeClanarine">
+    zamrznem članarinu
+    <br>
+    <input type="radio" name="vrstaPoruke" value="zaposljavanje">
+    se zaposlim
+    <br>
+    <input type="radio" name="vrstaPoruke" value="poslovnaSaradnja">
+    uspostavim poslovnu saradnju
+    <br>
+    <input type="radio" name="vrstaPoruke" value="pohvalaZamerka">
+    napišem pohvalu/zamerku
+    <br>
+    <input type="radio" name="vrstaPoruke" value="drugo"> 
+    drugo
+    <br>
+    <br>
+    Objekat u kom treniram/želim da radim:
+    <select name="objekat" id="objekat">
+        <option value="Zemun">Zemun</option>
+       <option value="Vracar">Vračar</option>
+        <optgroup label="NoviBeograd">
+            <option value="Fontana">Fontana</option>
+            <option value="BezanijskaKosa">Bežanijska Kosa</option>
+        </optgroup>
+        <option value="Senjak" disabled="disabled">Senjak</option>
+        <option value="NemamClanarinu" selected>Nemam članarinu</option>
+    </select>
+    <br>
+    <br>
+    <button type="submit">Pošalji</button>
+    <button type="reset">Obriši</button>
+    <br>
+    <br>
+       </form>
+
+
+    <script src="script/script04.js">  </script>
+</body>
+</html>

@@ -1,0 +1,47 @@
+*{
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    background-color: black;
+    color: whitesmoke;
+    box-sizing: border-box;
+    }
+     
+    h1{
+    text-align:center;
+    }
+
+#forma01{
+    background-color: rgb(71, 18, 63); 
+    text-align:center;
+    color: whitesmoke;
+    padding: 3%;
+    margin: 3%;
+ }
+
+ #forma01 h2,
+ #forma01 label{
+background-color: rgb(71, 18, 63);
+color: whitesmoke;
+display: inline-block;
+margin: 0;
+padding: 0.5em;
+} 
+
+.polje{
+    border: 1px solid gray;
+}
+
+ 
+@media screen and (max-width: 767px) {
+    #komentar {
+    width: 80%;    
+    height: 80%;  
+  }
+}
+/* za tablete */
+@media (min-width: 768px) and (max-width: 1023px) {
+    #komentar {
+        width: 80%;    
+        height: 80%;  
+      }
+    }
+    

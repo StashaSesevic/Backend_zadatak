@@ -1,0 +1,50 @@
+[
+    {
+        "ime_prezime": "Darko",
+        "email": "Babic",
+        "telefon": "062567334",
+        "komentar": "Zelim da zamrznem svoju clanarinu.",
+        "vrsta_poruke": "zamrzavanjeClanarine",
+        "objekat": "BezanijskaKosa"
+    },
+    {
+        "ime_prezime": "Marijana Ristic",
+        "email": "makic4@gmail.com",
+        "telefon": "062567666",
+        "komentar": "Zelim da zamrznem svoju clanarinu. Hvala unapred.",
+        "vrsta_poruke": "zamrzavanjeClanarine",
+        "objekat": "Zemun"
+    },
+    {
+        "ime_prezime": "Dragna Ostojic",
+        "email": "gaga4@gmail.com",
+        "telefon": "06547383",
+        "komentar": "Treneri i ljudi za pultom su jako ljubazni. Sve pohvale!",
+        "vrsta_poruke": "pohvalaZamerka",
+        "objekat": "Vracar"
+    },
+    {
+        "ime_prezime": "Mirjana Tasic",
+        "email": "tasicka@gmail.com",
+        "telefon": "0613243684",
+        "komentar": "Pozdrav, da li ste zainteresovani za poslovnu saradnju sa kompanijom Najbolji Suplementu? ",
+        "vrsta_poruke": "poslovnaSaradnja",
+        "objekat": "NemamClanarinu"
+    },
+    {
+        "ime_prezime": "Marija",
+        "email": "Petrovic",
+        "telefon": "067353633",
+        "komentar": "Cao, sve pohvale za devojku koja radi za pultom, Anu.",
+        "vrsta_poruke": "pohvalaZamerka",
+        "objekat": "Vracar"
+    },
+    {
+        "ime_prezime": "Kosta",
+        "email": "Kostic",
+        "telefon": "066755361",
+        "komentar": "Zdravo, sve pohvale za koncept teretane.",
+        "vrsta_poruke": "pohvalaZamerka",
+        "objekat": "Zemun"
+    }
+]
